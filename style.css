@@ -44,6 +44,7 @@ nav {
 .navLinks a {
     color: #f9faf8;
     margin-left: 20px;
+    font-size: 18px;
 }
 
 .logo h1 {
@@ -53,21 +54,46 @@ nav {
 
 header {
     background: #1f2937;
-    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .headerContainer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .headerText {
     display: flex;
     flex-direction: column;
     color: #f9faf8;
+    width: 40%;
+}
+
+.headerText h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.headerText p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .headerImg {
-    height: 150px;
-    width: 400px;
+    height: 250px;
+    width: 500px;
     background: grey;
+}
+
+.btn {
+    background: #3882f6;
+    padding: 15px 25px;
+    color: #f9faf8;
+    width: fit-content;
+    border-radius: 5px;
 }
